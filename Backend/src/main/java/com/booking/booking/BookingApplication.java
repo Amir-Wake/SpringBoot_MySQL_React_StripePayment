@@ -17,7 +17,7 @@ public class BookingApplication {
 	@PostConstruct
 	public void setup(){
 		// This is your test secret API key.
-		Stripe.apiKey = "sk_test_51MsmYTL264xZefcKSCE1DspGMYMeskf3igj8wVENLDWYkG2VFXVm3aE6Vd2JZ2sH1UxFHgFuFzxyRwqEn60PfY7L002CYgPEMH";
+		Stripe.apiKey = "YOUR_SECRET_API_KEY";
 
 	}
 	public static void main(String[] args) {
